@@ -12,7 +12,7 @@ public class Moditems {
             DeferredRegister.create(ForgeRegistries.ITEMS, ConstructionRobots.MOD_ID);
 
 
-        public static final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire",
+        public static final RegistryObject<Item> ROBOT = ITEMS.register("constructionrobot",
                 () -> new Item(new Item.Properties()));
 
         public static void register(IEventBus eventBus) {
